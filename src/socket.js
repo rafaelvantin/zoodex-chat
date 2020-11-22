@@ -10,10 +10,11 @@ module.exports = (server) => {
       _id: new Date(),
       text: `${name} acabou de se juntar ao chat`,
       createdAt: new Date(),
-      user: {
-        _id: 2,
-        name: "Admin",
-      },
+      // user: {
+      //   _id: 2,
+      //   name: "Admin",
+      // },
+      system: true,
     };
   };
 
